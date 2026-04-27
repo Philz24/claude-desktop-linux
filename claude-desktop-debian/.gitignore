@@ -1,35 +1,27 @@
-# Build output
-build/
-build_*/
-
-# Dev folder
-.dev/
-
-# Reference implementation
-reference/
-
-# Node modules
-node_modules/
-
-# OS-specific files
-.DS_Store
-Thumbs.db
 
 *.AppImage
-*.desktop
-*.deb
-*.exe
-
-
-# Test build output
-test-build/
-
-# Reference files for source inspection
+build/
+build_*/
+# Build output
 build-reference/
-
+.claude/worktrees/
+*.deb
+*.desktop
+.dev/
+# Dev folder
+.DS_Store
+*.exe
 # Nix build output
+node_modules/
+# Node modules
+# OS-specific files
+reference/
+# Reference files for source inspection
+# Reference implementation
 result
 result-*
-
-# Wrangler (Cloudflare Worker dev/deploy cache)
+test-build/
+# Test build output
+Thumbs.db
 worker/.wrangler/
+# Wrangler (Cloudflare Worker dev/deploy cache)
